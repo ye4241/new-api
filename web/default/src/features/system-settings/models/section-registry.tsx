@@ -55,6 +55,7 @@ const MODELS_SECTIONS = [
               '{}'
             ),
           },
+          GlobalModelAlias: settings.GlobalModelAlias ?? '{}',
           general_setting: {
             ping_interval_enabled:
               settings['general_setting.ping_interval_enabled'],
